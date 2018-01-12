@@ -1,0 +1,69 @@
+body{
+	
+	width:100%;
+	overflow:hidden;
+}
+.hide{ display:none;}
+.page{
+	width:100%;
+	height:100%;
+	position:absolute;
+	font-size:100px;
+	text-align:center;
+	background:center center no-repeat ;
+	background-size:cover;
+}
+.page .wrap{
+	height:500px;
+}
+.page-img100{
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.page-updown{
+	height:auto;width:25px;
+	position:absolute;
+	left:50%;
+	top:93%;
+	margin-left:-12px;
+}
+.page-left{
+	height:auto;width:14px;
+	position:absolute;
+	left:5%;
+	top:50%;
+}
+.page-right{
+	height:auto;width:14px;
+	position:absolute;
+	right:5%;
+	top:50%;
+}
+
+.page-guide{
+	height:auto;width:100px;
+	position:absolute;
+	left:50%;
+	top:20%;
+	margin-left:-50px;
+}
+/*
+.page-1-1{ background-color:#EDEDED; background: url(../img/t1-bg.png) center center no-repeat ; background-size:cover}
+.page-2-1{ background-color:#9261BF; background: url(../img/t2-bg.png) center center no-repeat ; background-size:cover}
+.page-3-1{ background-color:#FFBB4D; }
+.page-4-1{ background-color:#F94848;}
+.page-5-1{ background-color:#EC5F55;}
+.page-6-1{ background-color:#7876B7;}
+.page-7-1{ background-color:#147C79;}
+.page-8-1{ background-color:#619B51;}
+.page-9-1{ background-color:#5FBDD9;}
+.page-10-1{ background-color:#CBFFFA;background: url(../img/t10-bg.png) center center no-repeat ; background-size:cover}
+*/ 
+.page-current{
+	z-index:1;
+}
+#textsuper{position:absolute;top:-1000;left:-1000;overflow-x:hidden;overflow-y:hidden;z-index:4000}
+#textsub{color:black;position:relative;font-size:21pt;text-align:left;line-height:40pt;top:2000px}

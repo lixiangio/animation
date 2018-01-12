@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+} 
+*:not(input,textarea) {
+  -webkit-touch-callout: inherit;
+  -webkit-user-select: auto;
+}
+
+body{
+  width: 100%;
+  font-family: Arial, Microsoft Yahei, sans-serif;
+  color: #878787;
+  -webkit-touch-callout: inherit ;
+  -webkit-user-select: auto ;
+  background-color: #fff;
+  overflow:hidden;
+  height:100%;
+}
+a {
+  color: #878787;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration: none;
+}
+button,input,select,textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+dt,dd {
+  display: inline-block;
+}
+textarea,input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,ol,li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+.hide{ display:none;}
+.page{
+	width:100%;
+	height:100%;
+	position:absolute;
+	text-align:center;
+	background-color:#303642;
+	overflow:hidden;
+}
+.page-img100-B{
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.page-img100-T{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.page-img100-W {
+  width: 100%;
+  position:relative;
+  left: 0%;
+  top: 0%;
+}
+.page-img100-Z{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.page-img100{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.page-updown{
+	height:auto;width:25px;
+	position:absolute;
+	left:50%;
+	top:93%;
+	margin-left:-12px;
+}
+.item{
+	-webkit-box-flex: 1;
+  	flex:1;
+	font-size: 15px;
+	color: #4d4d4b;
+	line-height: 44px;
+	text-align: center;
+	border-bottom:1px solid #303741;
+}
+.item a{color:#4d4d4b;}
+.active_menu{border-bottom:1px solid #d67d2d;}
+
+.indicator {
+  position: fixed;
+  bottom: 10%;
+}
+
+.icon_dot.active {
+  background-color: #A51616;
+}
+.icon_dot {
+	display: inline-block;
+	vertical-align: middle;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #d0cdd1;
+	margin: 1px;
+}
+.tab_menu{
+	width:100%;
+	display: -webkit-box;
+	display: flex;
+}
+.main {
+	width: 80%;
+	margin: 10% auto;
+}
+.main .item{
+  margin-bottom: 10px;
+}
+.main .item .txt-input {
+  width: 100%;
+  height: 44px;
+  line-height: normal;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  display: block;
+}
+input,textarea{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.long_button{background:#e77817;color: #FFF;}
+.circle{width:25%;display:block;position:absolute;z-index:5;}

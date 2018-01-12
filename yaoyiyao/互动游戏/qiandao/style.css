@@ -1,0 +1,99 @@
+body,div,img,a,h1,h2,h3,table,tr,th,td,span{
+	padding:0px;
+	margin:0px;
+	font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","华文细黑","STHeiti","MingLiu";
+}
+.header {
+    width: 100%;
+	margin-bottom:20px;
+}
+.banner_img {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.button {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: #868686;
+  text-decoration: none;
+  border: 2px solid #DDD;
+  border-radius: 3em;
+  padding: 2% 0px;
+  margin: -34px auto 0 auto;
+  width: 92%;
+  background: rgb(229, 229, 229);
+}
+.table {
+  clear: both;
+  width: 100%;
+  padding: 10px 20px 20px 20px;
+}
+.table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #DDD;
+  width: 38%;
+  text-align: center;
+  color: rgb(107, 107, 107);
+}
+.table th {
+  color: #757575;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DDD;
+}
+.content {
+    border: 1px solid #BABABA;
+    border-radius: 0.5em;
+    padding-top: 5px;
+}
+.s1{
+	font-size: 15px;
+	color: #414040;
+}
+.s2{
+	font-size: 13px;
+	color:#686868;
+}
+.rili{float: left;width:16%;padding-right: 6px;}
+.content_title {
+  padding: 5px 8px;
+}
+.font{
+	color: rgb(107, 107, 107);
+	font-size: 15px;
+	text-align: center;
+	padding-top:26px;
+}
+
+
+
+#timestampdiv {
+    padding-top: 5px;
+    line-height: 23px;
+}
+.screen-reader-text{
+    position: absolute;
+    margin: -1px;
+    padding: 0px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    border: 0px none;
+}
+.button.button-large {
+    height: 30px;
+    line-height: 28px;
+    padding: 0px 12px 2px;
+}
+.button-primary {
+    background: #00A0D2 none repeat scroll 0% 0%;
+    border-color: #0073AA;
+    box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-decoration: none;
+}
+.timestamp-wrap{padding:8px;}
